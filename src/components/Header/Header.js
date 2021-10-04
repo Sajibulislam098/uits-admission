@@ -1,8 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
-
+    const activeStyle = {
+        fontWeight: "bold",
+        color: "red"
+    }
     return (
         <div className="MenuBar-container">
             <div className="container">
@@ -15,18 +18,18 @@ const Header = () => {
                     <div className="col-md-9">
                         <div className="menu-container  ">
                             <ul className=" d-flex align-items-end justify-content-end ">
-                                <Link to="/home" className=" items ms-5 fs-4">
+                                <NavLink activeClassName={activeStyle} to="/home" className="hover hover-1 items ms-5 fs-4">
                                     <li>Home</li>
-                                </Link>
-                                <Link to="/allCourse" className=" items ms-5 fs-4 ">
+                                </NavLink>
+                                <NavLink to="/allCourse" className=" items ms-5 fs-4 ">
                                     <li>Service</li>
-                                </Link>
-                                <Link to="/about" className=" items ms-5 fs-4">
+                                </NavLink>
+                                <NavLink to="/about" className=" items ms-5 fs-4">
                                     <li>About</li>
-                                </Link>
-                                <Link to="contact" className=" items ms-5 fs-4">
+                                </NavLink>
+                                <NavLink to="contact" className=" items ms-5 fs-4">
                                     <li>Contact us</li>
-                                </Link>
+                                </NavLink>
                             </ul>
                         </div>
                     </div>

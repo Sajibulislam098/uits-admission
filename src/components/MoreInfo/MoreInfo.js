@@ -41,7 +41,7 @@ const MoreInfo = () => {
                             Seize the opportunity to create a bright future...</p>
                         <h4 className="pb-5">"You may delay, but time will not" — Benjamin Franklin.</h4>
 
-                        <button className="btn btn-danger">Apply Now</button>
+                        <button className="btn btn-warning">Apply Now</button>
                     </Col>
 
                 </Row></div>

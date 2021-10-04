@@ -6,10 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Home from './components/Home/Home';
-import Course from './images/Course/Course';
+import Course from './components/Course/Course';
 import AllCourses from './components/AllCourses/AllCourses';
 import NotFound from './components/Error/NotFound';
-import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 

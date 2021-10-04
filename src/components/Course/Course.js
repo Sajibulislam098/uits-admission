@@ -15,15 +15,15 @@ const Course = () => {
 
 
 
-        <div className=" container">
+        <div className=" container pb-5">
             <h1 className=" text-start border text-light p-4">Best Courses we Provide</h1>
             <div className="row ">
 
                 {
                     courses.map((course) => (
-                        <div className="col-md-3">
+                        <div className="col-md-3 mt-5 mb-5">
                             <div className="carts   p-2 m-2 position-relative">
-                                <img className=" img rounded-circle pb-2" src={course.img} alt="" />
+                                <img className=" img  pb-2" src={course.img} alt="" />
                                 <div className=""> <h3>{course.name}</h3>
                                     <h5>Tution Fee: <small>{course.fee} <span className=" fs-4">&#2547;</span></small></h5>
 
