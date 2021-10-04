@@ -1,28 +1,28 @@
 [
     {
         "id": 1,
-        "img": "https://scontent.fcgp1-1.fna.fbcdn.net/v/t1.6435-9/78620885_470739703577182_6688325958996328448_n.png?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGy2QIeBVhak2WyGCzbJvrSru0unla8ZkCu7S6eVrxmQAb1lL_CWL-FhKFRB4bJypgeOIBMUauVaErACRuOeodr&_nc_ohc=ficqC2Ec3_QAX9DV3yu&_nc_ht=scontent.fcgp1-1.fna&oh=74eaac5be0eb858eaf3eb762acafa969&oe=6181275E",
+        "img": "https://i.pinimg.com/originals/7f/b5/b6/7fb5b63c34cf82142319b728d58716d0.jpg",
         "name": "Electrical and Electronics Engineering",
         "fee": 502700,
         "credit": 152
     },
     {
         "id": 2,
-        "img": "https://scontent.fcgp1-1.fna.fbcdn.net/v/t1.6435-9/213468097_1011035736306155_8760345258502734975_n.png?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHwTXcQHEx0gSSuGF99HTaGaJ8HJ0cakVFonwcnRxqRUUabG9dx7sK6aWexYSD1Ug5Wxcg5GKqB1QqWD6cLd-MB&_nc_ohc=baEHc9f77W0AX9MnNDp&_nc_ht=scontent.fcgp1-1.fna&oh=512effd13e87a0dfab36c4b23a117066&oe=61800E23",
+        "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/42fd3825815139.5634b2e60ab82.png",
         "name": "Computer Science And Engineering",
         "fee": 478700,
         "credit": 144
     },
     {
         "id": 3,
-        "img": "https://scontent.fcgp1-1.fna.fbcdn.net/v/t1.6435-9/49619253_396519834225105_902111670971662336_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_eui2=AeEWVfwJYimNjqTQ3J386FZu4AA6wpjsWJPgADrCmOxYkxQwladGlzeXwdqdi9rKVY37peWELMm3dxHIiTQkja7f&_nc_ohc=HIlTFgjyqSIAX_2ifTs&_nc_ht=scontent.fcgp1-1.fna&oh=fb6eb26ccd735be8442f3574ed95adc7&oe=618190AD",
+        "img": "https://www.logolynx.com/images/logolynx/78/78d0debaebec8738248c406eb6bf55dd.png",
         "name": "Civil Engineering",
         "fee": 526700,
         "credit": 160
     },
     {
         "id": 4,
-        "img": "https://scontent.fcgp1-1.fna.fbcdn.net/v/t1.6435-9/102701240_1190285561312321_5575764803787578271_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHu6IkMKPef90eJN3kI6nCQCBTy0iHovK8IFPLSIei8r345OmizM4WQebB5Q5fcgh1rASwKgGvfcsJy8PYXbkVU&_nc_ohc=dW31NFCX6pIAX9f6e6o&_nc_ht=scontent.fcgp1-1.fna&oh=f57ed4b4a64408bd16caf88958fff804&oe=6181280A",
+        "img": "https://ldce.ac.in/upload/logo/departments/information-technology-logo.png",
         "name": "Information Technology",
         "fee": 514700,
         "credit": 156
