@@ -1,15 +1,51 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Home from './components/Home/Home';
+import Course from './images/Course/Course';
+import AllCourses from './components/AllCourses/AllCourses';
+import NotFound from './components/Error/NotFound';
+import Footer from './components/Footer/Footer';
+import About from './components/About/About';
+
 
 function App() {
   return (
     <div className="App ">
-      <BrowserRouter>
-      </BrowserRouter>
-      <button className="btn btn-success">Search</button>
-      <div className="d-flex"> <h1>hello</h1><h1>now</h1></div>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route path="/home">
+            <Home></Home>
+          </Route>
+          <Route path="/course">
+            <Course></Course>
+          </Route>
+          <Route exact path="/allCourse">
+            <AllCourses></AllCourses>
+          </Route>
+          <Route path="/about">
+            <About></About>
+          </Route>
+          <Route path="/contact">
+            {/* <Footer></Footer> */}
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
+
+          </Route>
+
+        </Switch>
+
+      </Router>
+
+
     </div>
   );
 }

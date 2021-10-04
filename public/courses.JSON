@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "img": "https://scontent.fcgp1-1.fna.fbcdn.net/v/t1.6435-9/78620885_470739703577182_6688325958996328448_n.png?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGy2QIeBVhak2WyGCzbJvrSru0unla8ZkCu7S6eVrxmQAb1lL_CWL-FhKFRB4bJypgeOIBMUauVaErACRuOeodr&_nc_ohc=ficqC2Ec3_QAX9DV3yu&_nc_ht=scontent.fcgp1-1.fna&oh=74eaac5be0eb858eaf3eb762acafa969&oe=6181275E",
+        "name": "Electrical and Electronics Engineering",
+        "fee": 502700,
+        "credit": 152
+    },
+    {
+        "id": 2,
+        "img": "https://scontent.fcgp1-1.fna.fbcdn.net/v/t1.6435-9/213468097_1011035736306155_8760345258502734975_n.png?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHwTXcQHEx0gSSuGF99HTaGaJ8HJ0cakVFonwcnRxqRUUabG9dx7sK6aWexYSD1Ug5Wxcg5GKqB1QqWD6cLd-MB&_nc_ohc=baEHc9f77W0AX9MnNDp&_nc_ht=scontent.fcgp1-1.fna&oh=512effd13e87a0dfab36c4b23a117066&oe=61800E23",
+        "name": "Computer Science And Engineering",
+        "fee": 478700,
+        "credit": 144
+    },
+    {
+        "id": 3,
+        "img": "https://scontent.fcgp1-1.fna.fbcdn.net/v/t1.6435-9/49619253_396519834225105_902111670971662336_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_eui2=AeEWVfwJYimNjqTQ3J386FZu4AA6wpjsWJPgADrCmOxYkxQwladGlzeXwdqdi9rKVY37peWELMm3dxHIiTQkja7f&_nc_ohc=HIlTFgjyqSIAX_2ifTs&_nc_ht=scontent.fcgp1-1.fna&oh=fb6eb26ccd735be8442f3574ed95adc7&oe=618190AD",
+        "name": "Civil Engineering",
+        "fee": 526700,
+        "credit": 160
+    },
+    {
+        "id": 4,
+        "img": "https://scontent.fcgp1-1.fna.fbcdn.net/v/t1.6435-9/165499459_4010683655621312_2686170983602592657_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8631f5&_nc_eui2=AeFKuLG90FH-mVNK8gW9GrKiEHk_F5LS8x0QeT8XktLzHdPgoYTb6GDNQheCRbkIwes0NQni98uSvm7ehvGGALRY&_nc_ohc=KCFI2PQB81wAX9Cca2P&_nc_ht=scontent.fcgp1-1.fna&oh=3a4c9b6554667a238089ec3807eeca9f&oe=618052E3",
+        "name": "Information Technology",
+        "fee": 514700,
+        "credit": 156
+    }
+]
