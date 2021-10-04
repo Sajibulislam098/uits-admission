@@ -11,6 +11,7 @@ import AllCourses from './components/AllCourses/AllCourses';
 import NotFound from './components/Error/NotFound';
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
             <About></About>
           </Route>
           <Route path="/contact">
-            {/* <Footer></Footer> */}
+            <Contact></Contact>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

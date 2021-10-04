@@ -3,10 +3,11 @@
     linear-gradient(rgba(255, 255, 255, 0.986), rgb(175, 1, 1));
 } */
 .cart {
-  background-color: gray;
-  height: 400px;
+  /* background-color: gray; */
+  height: 600px;
+  border: 1px solid #001a33;
 }
-.img {
+/* .img {
   height: 200px;
   width: 200px;
-}
+} */

@@ -1,0 +1,17 @@
+.img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  width: 100%;
+  margin: 0;
+  max-height: 100%;
+  max-width: 100%;
+}
+.carts {
+  height: 500px;
+  border: 1px solid #001a33;
+}
+.border {
+  background-color: #001a33;
+}
