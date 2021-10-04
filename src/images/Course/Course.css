@@ -11,6 +11,7 @@
 .carts {
   height: 500px;
   border: 1px solid #001a33;
+  border-radius: 20px;
 }
 .border {
   background-color: #001a33;

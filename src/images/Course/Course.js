@@ -28,13 +28,15 @@ const Course = () => {
                                     <h5>Tution Fee: <small>{course.fee} <span className=" fs-4">&#2547;</span></small></h5>
 
                                     <p>Total Credit: {course.credit}</p></div>
-                                <button className="btn btn-danger">Details</button>
+                                <button className="btn btn-warning">Details</button>
                             </div>
                         </div>
                     ))
                 }
             </div>
-            <Link className="" to="/allCourse"><button className=" btn btn-success ">More Course</button></Link>
+            <div className="border text-end mt-3 rounded p-2">
+                <Link className="" to="/allCourse"><button className=" btn btn-warning ">More Course</button></Link>
+            </div>
         </div>
 
     );

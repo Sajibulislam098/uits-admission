@@ -26,7 +26,7 @@ const AllCourses = () => {
                                         <h5>Tution Fee: <small>{course.fee} <span className=" fs-4">&#2547;</span></small></h5>
 
                                         <p>Total Credit: {course.credit}</p></div>
-                                    <button className="btn btn-danger">Details</button>
+                                    <button className="btn btn-warning">Details</button>
                                 </div>
                             </div>
                         ))
