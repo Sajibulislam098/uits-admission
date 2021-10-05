@@ -4,7 +4,7 @@
 
 ## in Home page we saw some spacial course added and before enroll you have to register for vaccine.
 
-## in service paart you can see more Courses are here.
+## in courses part you can see more Courses are here.
 
 ## in About part some basic details are added about UITS campus
 
