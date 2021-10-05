@@ -3,7 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 import './MoreInfo.css'
 const MoreInfo = () => {
     return (
-        <div>
+        <div className="container">
             <div className="mt-5 mb-5">
                 <div className="row">
                     <div className="col-md-6">

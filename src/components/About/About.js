@@ -6,6 +6,9 @@ const About = () => {
     return (
         <div>
             <Header></Header>
+
+            {/* About part */}
+
             <div className="container pt-5 pb-5">
                 <h1 className="border-bottom border-danger w-25 pb-2">About us</h1>
                 <div className="d-flex justify-content-center  pt-5 pb-5 align-middle">
@@ -21,6 +24,8 @@ const About = () => {
 
                         UITS added the latest education system to its curriculum to developing the knowledge and skills of the students as well as integrated human values in the education system.  UITS is a science and technological knowledge-based center that provides marketable skills for younger generations who may be gainfully employed both national and international organizations.</small></p>
                 </div>
+
+                {/* Archivement part  */}
                 <div>
                     <h1 className="border-bottom border-danger w-50 pb-2"     >Archives of Our Establishment</h1>
                     <ul className="text-start">
@@ -39,6 +44,8 @@ const About = () => {
                     </ul>
                 </div>
             </div>
+
+
             <Footer></Footer>
         </div>
     );

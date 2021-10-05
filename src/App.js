@@ -1,10 +1,6 @@
-
 import './App.css';
-// import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
 import Home from './components/Home/Home';
 import Course from './components/Course/Course';
 import AllCourses from './components/AllCourses/AllCourses';
@@ -36,9 +32,10 @@ function App() {
           <Route path="/contact">
             <Contact></Contact>
           </Route>
+
+          {/* error handleing */}
           <Route path="*">
             <NotFound></NotFound>
-
           </Route>
 
         </Switch>

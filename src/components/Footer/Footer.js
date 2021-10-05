@@ -68,7 +68,7 @@ const Footer = () => {
               <div className="right-footer-container">
                 <h3>Sign up </h3>
                 <input
-                  className="footer-input text-light"
+                  className="footer-input text-dark"
                   type="text"
                   placeholder="Enter Email "
                 />

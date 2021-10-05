@@ -13,6 +13,7 @@ const AllCourses = () => {
         <div>
             <Header></Header>
 
+            {/* shown all Courses */}
 
             <div className="course container">
                 <h1 className="p-4">Choose Your Favourite Subject </h1>
