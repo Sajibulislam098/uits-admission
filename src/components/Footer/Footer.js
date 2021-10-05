@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-5">
               <div className="left-container text-start">
-                <h1>University of Information Technology and Sciences</h1>
+                <h2>University of Information Technology and Science </h2>
                 <div className="icons-container d-flex text-center ">
                   <div className="icon">
                     <FontAwesomeIcon icon={faInstagramSquare} />
@@ -42,9 +42,7 @@ const Footer = () => {
                   </small>
                 </p>
 
-                <p className="mt-5">
-                  <small>UITS © . All rights reserved.</small>
-                </p>
+
               </div>
             </div>
             <div className="col-md-2">
@@ -54,7 +52,7 @@ const Footer = () => {
                     <li>Home</li>
                   </Link>
                   <Link to="/allCourse" className=" items ">
-                    <li>Service</li>
+                    <li>Courses</li>
                   </Link>
                   <Link to="/about" className=" items">
                     <li>About</li>
@@ -95,8 +93,13 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+
           </div>
+
         </div>
+        <h6 className="mt-5">
+          <small>UITS © . All rights reserved.</small>
+        </h6>
       </div>
     </div>
   );

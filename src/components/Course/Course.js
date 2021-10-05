@@ -22,13 +22,15 @@ const Course = () => {
                 {
                     courses.map((course) => (
                         <div className="col-md-3 mt-5 mb-5">
-                            <div className="carts   p-2 m-2 position-relative">
+                            <div className="carts d-flex flex-column   p-2 m-2 position-relative">
                                 <img className=" img  pb-2" src={course.img} alt="" />
                                 <div className=""> <h3>{course.name}</h3>
                                     <h5>Tution Fee: <small>{course.fee} <span className=" fs-4">&#2547;</span></small></h5>
 
                                     <p>Total Credit: {course.credit}</p></div>
-                                <button className="btn btn-warning">Details</button>
+                                <div className="mt-auto mb-2">
+                                    <button className="btn btn-warning  ">Details</button>
+                                </div>
                             </div>
                         </div>
                     ))
